@@ -2,63 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94496071-1c9f-4b76-b905-7d1a0b413774" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/www" beforeDir="false" afterPath="$PROJECT_DIR$/bin/www" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/css/app.2978042cb07f144468575d47b20e258d.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/css/app.2978042cb07f144468575d47b20e258d.css.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/css/reset.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/img/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/img/icon_chat.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/img/icon_chat_selected.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/img/icon_home.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/img/icon_home_selected.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/img/icon_intro.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/img/icon_intro_selected.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/img/icon_mine.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/img/icon_mine_selected.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/img/icon_search.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/img/icon_search_selected.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/img/urichen.e09ab44.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/img/urichen_logo.42749d6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/js/0.021b11a638e770ff6d9c.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/js/0.021b11a638e770ff6d9c.js.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/js/1.e51720d2595ec59a293a.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/js/1.e51720d2595ec59a293a.js.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/js/10.9f17db580edb13fd7057.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/js/11.292a64104b2abc7e732a.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/js/12.34297181d8afca6cf34f.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/js/13.55b3066e64f1698a47b1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/js/14.9ed408c5614c5f8c842b.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/js/15.616a974d608d737c9174.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/js/16.9562ef1ae09fc0610df7.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/js/17.4da71180e4cfc2d56775.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/js/18.1930ac50bf00d5b4bd23.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/js/19.7da2d91c7558709eb793.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/js/2.2e24b4b0235441512bea.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/js/20.08f525b90d9225c95bfe.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/js/21.6acbe8b1e79f4e9ab776.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/js/22.93d10b67132ae858e077.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/js/23.350e4596fa9942716b3d.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/js/24.aefbef16e44fe187597f.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/js/25.8e05683593a998ef4643.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/js/26.1052827dceb585711448.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/js/27.b4c47f84d0643e4eb1e9.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/js/28.3bd1766431b542dbeda3.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/js/29.7a6c5fdbc219d4c4f43e.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/js/3.987bf09e6292bca63492.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/js/3.987bf09e6292bca63492.js.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/js/4.51c81520fe8073906b83.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/js/4.51c81520fe8073906b83.js.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/js/5.a9910798c94752807c85.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/js/6.d6c9209e296496661de0.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/js/7.a6200ec13675735bea01.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/js/8.b0552f20dc49525fb55f.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/js/9.7c8cee6dda4c11f8e9e3.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/js/manifest.f66143fa84083a6d9efc.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/js/vendor.883209c343e5f8a01b04.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/js/vendor.883209c343e5f8a01b04.js.gz" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -139,13 +84,15 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="conf" value="1" />
-          <entry key="js" value="4" />
+          <entry key="js" value="5" />
+          <entry key="json" value="9" />
           <entry key="www" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JavaScript" value="6" />
+          <entry key="JSON" value="9" />
+          <entry key="JavaScript" value="7" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
@@ -153,11 +100,13 @@
         <counts>
           <entry key="conf" value="69" />
           <entry key="js" value="4" />
+          <entry key="json" value="3" />
           <entry key="www" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
+          <entry key="JSON" value="3" />
           <entry key="JavaScript" value="8" />
           <entry key="PLAIN_TEXT" value="69" />
         </counts>
@@ -165,17 +114,7 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/bin/www">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1584">
-              <caret line="11" column="50" lean-forward="true" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -199,7 +138,7 @@
     </replaceStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -210,11 +149,11 @@
         <option value="$PROJECT_DIR$/data/homecasual.json" />
         <option value="$PROJECT_DIR$/plugins/plugins.js" />
         <option value="$PROJECT_DIR$/routes/index.js" />
-        <option value="$PROJECT_DIR$/data/search.json" />
         <option value="$PROJECT_DIR$/db/db.js" />
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/../nginx-1.14.1/conf/nginx.conf" />
         <option value="$PROJECT_DIR$/bin/www" />
+        <option value="$PROJECT_DIR$/data/search.json" />
       </list>
     </option>
   </component>
@@ -234,11 +173,12 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="626" />
     <option name="width" value="732" />
     <option name="height" value="738" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -255,17 +195,7 @@
             <path>
               <item name="pdd_server" type="b2602c69:ProjectViewProjectNode" />
               <item name="pdd_server" type="462c0819:PsiDirectoryNode" />
-              <item name="bin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pdd_server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pdd_server" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pdd_server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pdd_server" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -275,7 +205,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="E:/urichen_shop_demo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
@@ -339,16 +269,15 @@
       <workItem from="1541729751760" duration="25939000" />
       <workItem from="1541816445647" duration="11898000" />
       <workItem from="1541943404437" duration="3144000" />
-      <workItem from="1541983870293" duration="5620000" />
+      <workItem from="1541983870293" duration="6545000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="182183000" />
+    <option name="totallyTimeSpent" value="183108000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19122024" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -379,19 +308,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/data/goods_list.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://D:/新建文件夹 (2)/前端分享/vue+node课程资料汇总/服务器端/服务器端/node_api/api_demo/routes/index.js" />
     <entry file="file://D:/新建文件夹 (2)/前端分享/vue+node课程资料汇总/服务器端/服务器端/node_api/api_demo/app.js" />
     <entry file="file://D:/新建文件夹 (2)/前端分享/vue+node课程资料汇总/服务器/pdd_api/app.js" />
-    <entry file="file://$PROJECT_DIR$/data/recommend.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/mysql/lib/protocol/Parser.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="121">
@@ -470,29 +389,8 @@
     <entry file="file://$PROJECT_DIR$/public/images/search/1ee28c9d5a60f6c55c7ccca8b65e77de.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/shopList.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/static/js/0.274dcf2354fbf689477b.js" />
-    <entry file="file://$PROJECT_DIR$/data/homecasual.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/static/js/0.e31e3a6a6db530be7766.js" />
-    <entry file="file://$PROJECT_DIR$/data/homenav.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-46">
-          <caret line="7" column="89" selection-start-line="7" selection-start-column="89" selection-end-line="7" selection-end-column="89" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/static/js/0.168d3f219383f1ac0013.js" />
     <entry file="file://$PROJECT_DIR$/node_modules/connect-history-api-fallback/lib/index.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -505,13 +403,6 @@
     <entry file="file://$PROJECT_DIR$/public/static/js/0.28897cae2deaa0e1c3c5.js" />
     <entry file="file://$PROJECT_DIR$/plugins/plugins.js" />
     <entry file="file://E:/sell-app/src/components/goods/goods.vue" />
-    <entry file="file://$PROJECT_DIR$/data/search.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="5" lean-forward="true" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/static/js/0.3a5ff56e5fa068512f06.js" />
     <entry file="file://$PROJECT_DIR$/public/static/js/0.e67b02874c597c112f3e.js" />
     <entry file="file://$PROJECT_DIR$/public/static/js/0.d817b861826008978a22.js" />
@@ -531,9 +422,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/static/js/0.021b11a638e770ff6d9c.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/../nginx-1.14.1/conf/nginx.conf">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
@@ -550,10 +438,58 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bin/www">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1584">
-          <caret line="11" column="50" lean-forward="true" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="50" />
+        <state relative-caret-position="-1607">
+          <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/goods_list.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/homecasual.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/homenav.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="7" column="89" selection-start-line="7" selection-start-column="89" selection-end-line="7" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/recommend.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/recommend_users.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/shopList.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/search.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6463">
+          <caret line="281" column="40" selection-start-line="281" selection-start-column="40" selection-end-line="281" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/static/js/0.021b11a638e770ff6d9c.js">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
