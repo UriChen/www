@@ -1,0 +1,1 @@
+webpackJsonp([25],{RrEx:function(e,n){},T09K:function(e,n,t){"use strict";Object.defineProperty(n,"__esModule",{value:!0});var a={render:function(){var e=this.$createElement;return(this._self._c||e)("div",{staticClass:"man"},[this._v("\n  我是男装板块\n")])},staticRenderFns:[]};var r=t("VU/8")({name:"Man"},a,!1,function(e){t("RrEx")},"data-v-226edd56",null);n.default=r.exports}});

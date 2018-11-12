@@ -1,0 +1,1 @@
+webpackJsonp([12],{Cy3K:function(e,t){},GNtH:function(e,t,n){"use strict";Object.defineProperty(t,"__esModule",{value:!0});var a={render:function(){var e=this.$createElement;return(this._self._c||e)("div",{staticClass:"beauty"},[this._v("\n  美妆板块\n")])},staticRenderFns:[]};var s=n("VU/8")({name:"Beauty"},a,!1,function(e){n("Cy3K")},"data-v-a5fcbddc",null);t.default=s.exports}});

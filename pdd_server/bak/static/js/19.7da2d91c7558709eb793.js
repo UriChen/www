@@ -1,0 +1,1 @@
+webpackJsonp([19],{Z4a0:function(e,t){},j7X9:function(e,t,n){"use strict";Object.defineProperty(t,"__esModule",{value:!0});var s={render:function(){var e=this.$createElement;return(this._self._c||e)("div",{staticClass:"dress"},[this._v("\n  服饰板块\n")])},staticRenderFns:[]};var a=n("VU/8")({name:"Dress"},s,!1,function(e){n("Z4a0")},"data-v-6eef97f6",null);t.default=a.exports}});

@@ -1,0 +1,1 @@
+webpackJsonp([11],{"/doh":function(e,t,n){"use strict";Object.defineProperty(t,"__esModule",{value:!0});var s={render:function(){var e=this.$createElement;return(this._self._c||e)("div",{staticClass:"box"},[this._v("\n  鞋包板块\n")])},staticRenderFns:[]};var a=n("VU/8")({name:"Box"},s,!1,function(e){n("BDKB")},"data-v-cd812ce2",null);t.default=a.exports},BDKB:function(e,t){}});
