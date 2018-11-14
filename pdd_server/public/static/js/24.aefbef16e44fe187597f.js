@@ -1,0 +1,1 @@
+webpackJsonp([24],{Jqgu:function(e,t,n){"use strict";Object.defineProperty(t,"__esModule",{value:!0});var a={render:function(){var e=this.$createElement;return(this._self._c||e)("div",{staticClass:"ele"},[this._v("\n  我是电器板块\n")])},staticRenderFns:[]};var s=n("VU/8")({name:"Ele"},a,!1,function(e){n("h9XX")},"data-v-49c8bd3a",null);t.default=s.exports},h9XX:function(e,t){}});

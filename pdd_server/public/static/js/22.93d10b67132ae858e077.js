@@ -1,0 +1,1 @@
+webpackJsonp([22],{"+XSg":function(e,t){},FGCT:function(e,t,n){"use strict";Object.defineProperty(t,"__esModule",{value:!0});var s={render:function(){var e=this.$createElement;return(this._self._c||e)("div",{staticClass:"food"},[this._v("\n  食品板块\n")])},staticRenderFns:[]};var a=n("VU/8")({name:"Food"},s,!1,function(e){n("+XSg")},"data-v-53560fe7",null);t.default=a.exports}});
