@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const query = require('./../db/db');
+const conn = require('./../db/db');
 const svgCaptcha = require('svg-captcha');
 const sms_util = require('./../util/sms_util');
 const md5 = require('blueimp-md5');
@@ -45,7 +45,7 @@ router.get('/recommend/api', function (req, res, next) {
   // 3.1 数据库查询的语句
   let sqlStr = "INSERT INTO pdd_recommend(`goods_id`,`goods_name`,`short_name`, `thumb_url`, `hd_thumb_url`, `image_url`, `price`, `normal_price`, `market_price`, `sales_tip`, `hd_url`) VALUES ?";
   // 3.2 执行语句
-  query(sqlStr, [temp_arr_all], (error, results, fields) => {
+  conn.query(sqlStr, [temp_arr_all], (error, results, fields) => {
     if (error) {
       console.log(error);
       console.log('插入失败');
@@ -59,7 +59,7 @@ router.get('/api/get', (req, res, next) => {
   // 查询数据库语句
   let sqlStr = 'SELECT count FROM count_db';
   // 执行语句
-  query(sqlStr, (error, results, fields) => {
+  conn.query(sqlStr, (error, results, fields) => {
     // 失败
     if (error) {
       res.json({err_code: 0, data: '数据请求失败'});
@@ -74,7 +74,7 @@ router.post('/api/post', (req, res, next) => {
   // 查询语句
   let sqlStr = `UPDATE count_db SET count=count+${req.body.num} WHERE count<99`;
   // 执行
-  query(sqlStr, (error, results, fields) => {
+  conn.query(sqlStr, (error, results, fields) => {
     // 失败
     if (error) {
       res.json({err_code: 0, message: '更新失败'})
@@ -99,7 +99,7 @@ router.get('/api/homecasual', (req, res) => {
   // 1.1 数据库查询的语句
   let sqlStr = 'SELECT * FROM pdd_homecasual';
   // 1.2 执行语句
-  query(sqlStr, (error, results, fields) => {
+  conn.query(sqlStr, (error, results, fields) => {
     // console.log(results[0]);
     if (error) {
       res.json({err_code: 0, message: '请求数据失败'});
@@ -116,7 +116,7 @@ router.get('/api/homenav', (req, res) => {
   // 1.1 数据库查询的语句
   let sqlStr = 'SELECT * FROM pdd_homenav';
   // 1.2 执行语句
-  query(sqlStr, (error, results, fields) => {
+  conn.query(sqlStr, (error, results, fields) => {
     // console.log(results[0]);
     if (error) {
       res.json({err_code: 0, message: '请求数据失败'});
@@ -142,7 +142,7 @@ router.get('/api/homeshoplist', (req, res) => {
   // console.log(sqlStr);
 
   // 1.2 执行语句
-  query(sqlStr, (error, results, fields) => {
+  conn.query(sqlStr, (error, results, fields) => {
     if (error) {
       res.json({err_code: 0, message: '请求数据失败'});
     } else {
@@ -174,7 +174,7 @@ router.get('/api/recommendshoplist', (req, res) => {
   // console.log(sqlStr);
 
   // 1.2 执行语句
-  query(sqlStr, (error, results, fields) => {
+  conn.query(sqlStr, (error, results, fields) => {
     if (error) {
       res.json({err_code: 0, message: '请求数据失败'});
     } else {
@@ -273,7 +273,7 @@ router.post('/api/login_code', (req, res) => {
 
   let sqlStr = "SELECT * FROM pdd_user_info WHERE user_phone = '" + phone + "' LIMIT 1";
 
-  query(sqlStr, (error, results, fields) => {
+  conn.query(sqlStr, (error, results, fields) => {
     if (error) {
       res.json({err_code: 0, message: '请求数据失败'});
     } else {
@@ -288,13 +288,13 @@ router.post('/api/login_code', (req, res) => {
       } else { // 新用户
         const addSql = "INSERT INTO pdd_user_info(user_name, user_phone) VALUES (?, ?)";
         const addSqlParams = [phone, phone];
-        query(addSql, addSqlParams, (error, results, fields) => {
+        conn.query(addSql, addSqlParams, (error, results, fields) => {
           results = JSON.parse(JSON.stringify(results));
           // console.log(results);
           if (!error) {
             req.session.userId = results.insertId;
             let sqlStr = "SELECT * FROM pdd_user_info WHERE id = '" + results.insertId + "' LIMIT 1";
-            query(sqlStr, (error, results, fields) => {
+            conn.query(sqlStr, (error, results, fields) => {
               if (error) {
                 res.json({err_code: 0, message: '请求数据失败'});
               } else {
@@ -336,7 +336,7 @@ router.post('/api/login_pwd', (req, res) => {
   console.log(user_pwd);
   // 3. 查询数据
   let sqlStr = "SELECT * FROM pdd_user_info WHERE user_name = '" + user_name + "' LIMIT 1";
-  query(sqlStr, (error, results, fields) => {
+  conn.query(sqlStr, (error, results, fields) => {
     if (error) {
       res.json({err_code: 0, message: '用户名不正确!'});
     } else {
@@ -357,13 +357,13 @@ router.post('/api/login_pwd', (req, res) => {
       } else { // 新用户
         const addSql = "INSERT INTO pdd_user_info(user_name, user_pwd) VALUES (?, ?)";
         const addSqlParams = [user_name, user_pwd];
-        query(addSql, addSqlParams, (error, results, fields) => {
+        conn.query(addSql, addSqlParams, (error, results, fields) => {
           results = JSON.parse(JSON.stringify(results));
           // console.log(results);
           if (!error) {
             req.session.userId = results.insertId;
             let sqlStr = "SELECT * FROM pdd_user_info WHERE id = '" + results.insertId + "' LIMIT 1";
-            query(sqlStr, (error, results, fields) => {
+            conn.query(sqlStr, (error, results, fields) => {
               if (error) {
                 res.json({err_code: 0, message: '请求数据失败'});
               } else {
@@ -391,7 +391,7 @@ router.get('/api/user_info', (req, res) => {
   let userId = req.session.userId;
   // 1.1 数据库查询的语句
   let sqlStr = "SELECT * FROM pdd_user_info WHERE id = '" + userId + "' LIMIT 1";
-  query(sqlStr, (error, results, fields) => {
+  conn.query(sqlStr, (error, results, fields) => {
     if (error) {
       res.json({err_code: 0, message: '请求数据失败'});
     } else {
@@ -444,7 +444,7 @@ router.post('/api/change_user_msg', (req, res) => {
   // 3. 更新数据
   let sqlStr = "UPDATE pdd_user_info SET user_name = ?, user_sex = ?, user_address = ?, user_birthday = ?, user_sign = ? WHERE id = " + id;
   let strParams = [user_name, user_sex, user_address, user_birthday, user_sign];
-  query(sqlStr, strParams, (error, results, fields) => {
+  conn.query(sqlStr, strParams, (error, results, fields) => {
     if (error) {
       res.json({err_code: 0, message: '修改用户信息失败!'});
     } else {
@@ -475,7 +475,7 @@ router.post('/api/add_shop_cart', (req, res) => {
 
   // 3. 查询数据
   let sql_str = "SELECT * FROM pdd_cart WHERE user_id = '" + user_id + "' AND goods_id = '" + goods_id + "' LIMIT 1";
-  query(sql_str, (error, results, fields) => {
+  conn.query(sql_str, (error, results, fields) => {
     if (error) {
       res.json({err_code: 0, message: '服务器内部错误!'});
     } else {
@@ -483,7 +483,7 @@ router.post('/api/add_shop_cart', (req, res) => {
       if (results[0]) { // 3.1 商品已经存在
         let buy_count = results[0].buy_count + 1;
         let sql_str = "UPDATE pdd_cart SET buy_count = " + buy_count + " WHERE goods_id = '" + goods_id + "' AND user_id = '" + user_id + "'";
-        query(sql_str, (error, results, fields) => {
+        conn.query(sql_str, (error, results, fields) => {
           if (error) {
             res.json({err_code: 0, message: '加入购物车失败!'});
           } else {
@@ -493,7 +493,7 @@ router.post('/api/add_shop_cart', (req, res) => {
       } else { // 3.2 商品不存在
         let add_sql = "INSERT INTO pdd_cart(goods_id, goods_name, thumb_url, price, buy_count, is_pay, user_id) VALUES (?, ?, ?, ?, ?, ?, ?)";
         let sql_params = [goods_id, goods_name, thumb_url, price, buy_count, is_pay, user_id];
-        query(add_sql, sql_params, (error, results, fields) => {
+        conn.query(add_sql, sql_params, (error, results, fields) => {
           if (error) {
             res.json({err_code: 0, message: '加入购物车失败!'});
           } else {
@@ -518,7 +518,7 @@ router.get('/api/cart_goods', (req, res) => {
 
   // 1.1 数据库查询的语句
   let sqlStr = "SELECT * FROM pdd_cart WHERE user_id = '" + req.session.userId + "'";
-  query(sqlStr, (error, results, fields) => {
+  conn.query(sqlStr, (error, results, fields) => {
     if (error) {
       res.json({err_code: 0, message: '请求数据失败'});
     } else {
@@ -546,7 +546,7 @@ router.post('/api/update_carts_goods', (req, res) => {
   } else {
     sqlStr = "UPDATE pdd_cart SET buy_count = buy_count "+ isAdd +" 1 WHERE user_id = '" + user_id + "' AND goods_id = '" + goods_id + "' LIMIT 1";
   }
-  query(sqlStr, (error, results, fields) => {
+  conn.query(sqlStr, (error, results, fields) => {
     if (error) {
       res.json({err_code: 0, message: '数据修改失败!'});
     } else {
