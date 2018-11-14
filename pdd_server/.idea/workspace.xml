@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="94496071-1c9f-4b76-b905-7d1a0b413774" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="94496071-1c9f-4b76-b905-7d1a0b413774" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -134,7 +132,7 @@
         <entry file="file://$PROJECT_DIR$/routes/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="230">
-              <caret line="287" column="21" lean-forward="true" selection-start-line="287" selection-start-column="21" selection-end-line="287" selection-end-column="21" />
+              <caret line="287" column="21" selection-start-line="287" selection-start-column="21" selection-end-line="287" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -204,7 +202,7 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="626" />
     <option name="width" value="732" />
     <option name="height" value="738" />
@@ -533,7 +531,7 @@
     <entry file="file://$PROJECT_DIR$/routes/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
-          <caret line="287" column="21" lean-forward="true" selection-start-line="287" selection-start-column="21" selection-end-line="287" selection-end-column="21" />
+          <caret line="287" column="21" selection-start-line="287" selection-start-column="21" selection-end-line="287" selection-end-column="21" />
         </state>
       </provider>
     </entry>
