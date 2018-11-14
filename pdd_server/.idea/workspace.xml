@@ -100,7 +100,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="conf" value="69" />
-          <entry key="js" value="88" />
+          <entry key="js" value="148" />
           <entry key="json" value="3" />
           <entry key="www" value="4" />
         </counts>
@@ -108,7 +108,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JSON" value="3" />
-          <entry key="JavaScript" value="92" />
+          <entry key="JavaScript" value="152" />
           <entry key="PLAIN_TEXT" value="69" />
         </counts>
       </usages-collector>
@@ -131,8 +131,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/routes/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="287" column="21" selection-start-line="287" selection-start-column="21" selection-end-line="287" selection-end-column="21" />
+            <state relative-caret-position="46">
+              <caret line="538" column="18" lean-forward="true" selection-start-line="538" selection-start-column="18" selection-end-line="538" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -202,7 +202,7 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="626" />
     <option name="width" value="732" />
     <option name="height" value="738" />
@@ -302,15 +302,15 @@
       <workItem from="1542025648818" duration="1409000" />
       <workItem from="1542159060489" duration="3216000" />
       <workItem from="1542182117321" duration="1685000" />
-      <workItem from="1542193195470" duration="2335000" />
+      <workItem from="1542193195470" duration="2802000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="192351000" />
+    <option name="totallyTimeSpent" value="192818000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19122024" />
@@ -530,8 +530,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="287" column="21" selection-start-line="287" selection-start-column="21" selection-end-line="287" selection-end-column="21" />
+        <state relative-caret-position="46">
+          <caret line="538" column="18" lean-forward="true" selection-start-line="538" selection-start-column="18" selection-end-line="538" selection-end-column="18" />
         </state>
       </provider>
     </entry>
