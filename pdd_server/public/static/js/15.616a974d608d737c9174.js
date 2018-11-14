@@ -1,1 +1,0 @@
-webpackJsonp([15],{B7yU:function(t,e,n){"use strict";Object.defineProperty(e,"__esModule",{value:!0});var a={render:function(){var t=this.$createElement;return(this._self._c||t)("div",{staticClass:"fruits"},[this._v("\n  水果板块\n")])},staticRenderFns:[]};var s=n("VU/8")({name:"Fruits"},a,!1,function(t){n("naal")},"data-v-7a901202",null);e.default=s.exports},naal:function(t,e){}});
