@@ -2,24 +2,28 @@
 const mysql = require('mysql');
 // import mysql from 'mysql' 也可以
 // 配置mysql
-const mysqlConfig = mysql.createConnection({
+const pool = mysql.createConnection({
   host: '127.0.0.1', // 数据库地址
   user: 'root', // 账号
   password: '123456', // 密码
   database: 'pdd_shop' // 数据库名称
 });
 
-const conn = function(sql,callback){
-  mysqlConfig.getConnection(function(err,conn){
+const query = function(sql,options,callback){
+
+  pool.getConnection(function(err,conn){
     if(err){
-      callback(err,null);
+      callback(err,null,null);
     }else{
-      conn.query(sql,function(err,results){
-        callback(err,results);
+      conn.query(sql,options,function(err,results,fields){
+        //事件驱动回调
+        callback(err,results,fields);
       });
+      //释放连接，需要注意的是连接释放需要在此处释放，而不是在查询回调里面释放
       conn.release();
     }
   });
 };
 
-module.exports = conn;
+
+module.exports = query;
