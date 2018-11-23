@@ -1,1 +1,0 @@
-webpackJsonp([4],{KaA8:function(e,t){},"d8+m":function(e,t,n){"use strict";Object.defineProperty(t,"__esModule",{value:!0});var a={render:function(){var e=this.$createElement;return(this._self._c||e)("div",{attrs:{id:"new"}},[this._v("\n  上新\n")])},staticRenderFns:[]};var r=n("VU/8")({name:"New"},a,!1,function(e){n("KaA8")},"data-v-677f910f",null);t.default=r.exports}});
