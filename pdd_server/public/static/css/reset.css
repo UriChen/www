@@ -58,4 +58,4 @@ table {
   text-overflow: ellipsis;
   white-space: nowrap;
 }
-
+input,button,select,textarea{outline:none}
