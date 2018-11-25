@@ -1,0 +1,1 @@
+webpackJsonp([4],{Cmr2:function(e,t){},x7Nh:function(e,t,n){"use strict";Object.defineProperty(t,"__esModule",{value:!0});var r={render:function(){var e=this.$createElement;return(this._self._c||e)("div",{attrs:{id:"user"}},[this._v("\n  页面建设中...\n")])},staticRenderFns:[]};var s=n("VU/8")({name:"User"},r,!1,function(e){n("Cmr2")},"data-v-d1c83776",null);t.default=s.exports}});
