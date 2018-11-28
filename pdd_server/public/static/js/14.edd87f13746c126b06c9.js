@@ -1,0 +1,1 @@
+webpackJsonp([14],{"+9RO":function(e,t){},"2SSE":function(e,t,n){"use strict";Object.defineProperty(t,"__esModule",{value:!0});var r={render:function(){var e=this.$createElement;return(this._self._c||e)("div",{attrs:{id:"top"}},[this._v("挑尖货")])},staticRenderFns:[]};var a=n("VU/8")({name:"Top"},r,!1,function(e){n("+9RO")},"data-v-27d75be8",null);t.default=a.exports}});
