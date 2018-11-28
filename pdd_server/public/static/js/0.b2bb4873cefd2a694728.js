@@ -1,1 +1,0 @@
-webpackJsonp([0],{"9R/N":function(o,t,s){"use strict";t.a={data:function(){return{offsetTop:0}},activated:function(){null!==this.$refs.scrollContent.scrollTop&&(this.$refs.scrollContent.scrollTop=this.offsetTop)},beforeRouteLeave:function(o,t,s){this.offsetTop=this.$refs.scrollContent.scrollTop,s()}}}});
